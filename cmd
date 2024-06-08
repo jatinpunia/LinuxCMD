@@ -23,9 +23,11 @@ lsof -i:<port_number>
 Switch to bash: exec bash
 Switch to zsh: exec zsh
 
-Kill Developement server
+#Kill Developement server
 pkill -f runserver
 
-
+#select Django Data
+sqlite3  db.sqlite3
+.tables
 
 
