@@ -23,5 +23,9 @@ lsof -i:<port_number>
 Switch to bash: exec bash
 Switch to zsh: exec zsh
 
+Kill Developement server
+pkill -f runserver
+
+
 
 
