@@ -30,4 +30,6 @@ pkill -f runserver
 sqlite3  db.sqlite3
 .tables
 
+Django Lan access:
+python manage.py runserver 0.0.0.0:port
 
