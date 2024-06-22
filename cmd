@@ -33,3 +33,8 @@ sqlite3  db.sqlite3
 Django Lan access:
 python manage.py runserver 0.0.0.0:port
 
+Node mysql error
+add portnumber in db.js
+give GRANT ALL PRIVILEGES ON newdb.* TO 'newuser'@'localhost';
+
+
