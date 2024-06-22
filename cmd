@@ -23,6 +23,9 @@ lsof -i:<port_number>
 Switch to bash: exec bash
 Switch to zsh: exec zsh
 
+const path = require('path');
+
+
 #Kill Developement server
 pkill -f runserver
 
